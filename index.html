@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recetario</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Mi Recetario</h1>
+
+  <!-- Formulario para agregar recetas -->
+  <form id="recipeForm">
+    <label for="recipeName">Nombre de la receta:</label>
+    <input type="text" id="recipeName" placeholder="Ej. Tarta de manzana" required>
+
+    <label for="recipeIngredients">Ingredientes:</label>
+    <textarea id="recipeIngredients" placeholder="Ej. 2 manzanas, 200g de azúcar" required></textarea>
+
+    <label for="recipeInstructions">Instrucciones:</label>
+    <textarea id="recipeInstructions" placeholder="Describe los pasos" required></textarea>
+
+    <button type="submit">Agregar receta</button>
+  </form>
+
+  <h2>Listado de recetas</h2>
+  <ul id="recipeList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html
