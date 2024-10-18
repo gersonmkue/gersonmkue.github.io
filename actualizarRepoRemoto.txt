@@ -1,0 +1,4 @@
+git add --all
+git commit -m "Atualización"
+git remote add origin https://gersonmkue.github.io/
+git branch -M main
